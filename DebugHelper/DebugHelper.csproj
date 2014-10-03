@@ -50,7 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PluginFramework\PluginFramework.csproj">
+    <ProjectReference Include="..\PluginFramework\PluginFramework.csproj">
       <Project>{2a46aacc-3f3b-4742-92c6-87744af1bd5f}</Project>
       <Name>PluginFramework</Name>
     </ProjectReference>
