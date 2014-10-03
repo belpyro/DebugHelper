@@ -36,7 +36,7 @@ namespace DebugHelper
             return new Rect(width - rect_w / 2, height, rect_w, rect_h);
         }
 
-        public override void Awake()
+        protected override void Awake()
         {
             WindowRect = CenterScreen();
             WindowStyle = HighLogic.Skin.window;
@@ -391,7 +391,7 @@ namespace DebugHelper
             }
         }
 
-        public override void Update()
+        protected override void Update()
         {
             base.Update();
 
