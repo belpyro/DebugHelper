@@ -1,0 +1,3 @@
+[submodule "PluginFramework"]
+	path = PluginFramework
+	url = git@github.com:belpyro/PluginFramework.git
